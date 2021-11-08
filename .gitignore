@@ -1,3 +1,11 @@
+# yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
 # Logs
 logs
 *.log
@@ -58,9 +66,7 @@ typings/
 
 # gatsby files
 .cache/
-.wordpress-cache
 public
-WordPress/GraphQL
 
 # Mac files
 .DS_Store
@@ -69,9 +75,15 @@ WordPress/GraphQL
 yarn-error.log
 .pnp/
 .pnp.js
+
 # Yarn Integrity file
 .yarn-integrity
 
+# Ignore .idea files
+.idea/
+# Local Netlify folder
+.netlify
+.vscode
 # node/bower and dependency directories
 node_modules
 .next
@@ -94,3 +106,6 @@ Thumbs.db
 .env
 
 .vercel
+.wordpress-cache
+public
+WordPress/GraphQL
